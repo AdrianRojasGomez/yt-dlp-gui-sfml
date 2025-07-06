@@ -1,0 +1,16 @@
+# Binarios y carpetas temporales
+/bin/
+/obj/
+/Debug/
+/Release/
+*.exe
+*.obj
+*.pdb
+
+# VS y CMake
+.vs/
+CMakeFiles/
+CMakeCache.txt
+
+# Archivos de sistema
+Thumbs.db
