@@ -159,12 +159,19 @@
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="Downloader.cpp" />
+    <ClCompile Include="DownloadScreen.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainScreen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
     <ClInclude Include="Button.h" />
     <ClInclude Include="Downloader.h" />
+    <ClInclude Include="DownloadScreen.h" />
+    <ClInclude Include="IScreen.h" />
+    <ClInclude Include="MainScreen.h" />
+    <ClInclude Include="ScreenID.h" />
+    <ClInclude Include="ScreenManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

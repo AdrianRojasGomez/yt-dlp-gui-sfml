@@ -1,17 +1,26 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "Button.h"
-#include <string>
+#include "ScreenManager.h"
+#include "MainScreen.h"
+#include "DownloadScreen.h"
+
+
 
 class Application
 {
 private:
-	unsigned int _width = 800;
-	unsigned int _height = 400;
-	bool wasDownloading;
+	const unsigned int _width = 800;
+	const unsigned int _height = 400;
 	sf::RenderWindow _window;
-	Button _downloadButton;
-	std::string _videoURL;
+
+	ScreenManager _states;
+	MainScreen _mainScreen;
+	DownloadScreen _downloadScreen;
+
+
+
+
 
 public:
 	Application();
